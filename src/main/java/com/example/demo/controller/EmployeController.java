@@ -27,6 +27,12 @@ public class EmployeController {
 		return e;
     }
 	
+	@RequestMapping(path="/home")
+	public String home()
+	{
+		return "home.html";
+	}
+	
 	@RequestMapping(path="/")
 	public List<Employe> getAll()
 	{

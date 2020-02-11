@@ -19,5 +19,6 @@ public class AppUsersDetailsService implements UserDetailsService{
 			throw new UsernameNotFoundException("user not found !!!!");
 		return new UserDetailsPrincipal(user);
 	}
+	
 
 }
