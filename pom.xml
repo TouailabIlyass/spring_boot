@@ -12,6 +12,7 @@
 	<artifactId>demo2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo2</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -70,6 +71,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>demo2</finalName>
 	</build>
 
 </project>
